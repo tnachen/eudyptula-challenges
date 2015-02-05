@@ -3,7 +3,7 @@
 
 int __init init_module(void)
 {
-  printk(KERN_DEBUG, "Hello world!\n");
+  printk(KERN_DEBUG "Hello world!\n");
 
   /*
    * A non 0 return means init_module failed; module can't be loaded.
@@ -13,8 +13,5 @@ int __init init_module(void)
 
 void __exit cleanup_module(void)
 {
-  printk(KERN_DEBUG, "Goodbye world!\n");
+  printk(KERN_DEBUG "Goodbye world!\n");
 }
-
-module_init(hello_init);
-module_exit(hello_exit);
