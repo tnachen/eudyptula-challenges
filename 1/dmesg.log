@@ -1,0 +1,10 @@
+[13865557.030793] hid-generic 0003:0557:2221.0002: can't reset device, 0000:00:1a.0-1.6/input1, status -110
+[13865985.247065] hid-generic 0003:0557:2221.0002: can't reset device, 0000:00:1a.0-1.6/input1, status -110
+[13866022.735567] hid-generic 0003:0557:2221.0002: can't reset device, 0000:00:1a.0-1.6/input1, status -110
+[13866135.028597] hid-generic 0003:0557:2221.0002: can't reset device, 0000:00:1a.0-1.6/input1, status -110
+[13866309.779460] hid-generic 0003:0557:2221.0002: can't reset device, 0000:00:1a.0-1.6/input1, status -110
+[13867169.716862] hello: module license 'unspecified' taints kernel.
+[13867169.716869] Disabling lock debugging due to kernel taint
+[13867169.716942] hello: module verification failed: signature and/or  required key missing - tainting kernel
+[13867169.722954] Hello world!
+[13867193.688293] Goodbye world!
